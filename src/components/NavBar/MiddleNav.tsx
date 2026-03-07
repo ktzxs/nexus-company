@@ -1,6 +1,6 @@
 'use client'
 
-import Link from 'next/link'
+import Link from 'next/link';
 import Image from 'next/image'
 
 export default function MiddleNav() {
@@ -9,10 +9,9 @@ export default function MiddleNav() {
       <div className='flex items-center justify-between py-3 px-[8%] lg:px-[16%]'>
         
         {/* Logo */}
-        <Link href='/' className='text-4xl lg:text-5xl font-bold Unbounded text-black'>
-          Nexus<span className='text-[var(--second)]'>Company</span>
+        <Link href='/' className='text-4xl lg:text-5xl font-bold Unbounded text-white'>
+          Nexus<span className='text-[var(--white)]'>Company</span>
         </Link>
-
       </div>
     </div>
   )

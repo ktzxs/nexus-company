@@ -1,4 +1,4 @@
-import MiddleNav from "./MiddleNav"
+import MiddleNav from "./MiddleNav";
 
 export default function NavBar() {
     return (

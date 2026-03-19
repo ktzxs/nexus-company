@@ -11,7 +11,13 @@
   --second: #67819e;
   --white: #fff;
   --black: #000;
+
+  /* gradiente */
   --gradient: linear-gradient(90deg, #002e5d, #002e5d, #2774ae);
+
+  /* animacao */
+  --transitio-regular: 0.3s;
+  --transition-slow: 0.6s;
 
   --Unbounded: 'Unbounded', sans-serif;
 
@@ -21,4 +27,15 @@
 
 .Unbounded {
   font-family: var(--Unbounded);
+}
+
+htlm, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #fffaf3;
+  font-family: var(--Unbounded), sans-serif;
+  color: var(--black);
 }

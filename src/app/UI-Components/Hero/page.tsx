@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import menu from '../../../../../public/Menu-dot.svg'
-import gust from '../../../../../public/gust.png'
+import gust from '../../../../public/gust.png'
 import star from '../../../../../public/star.png'
 
 export default function Hero() {
